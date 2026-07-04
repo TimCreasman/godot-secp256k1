@@ -73,3 +73,6 @@ compile_commands.json
 # Cmake
 cmake-build*
 CMakeUserPresets.json
+
+bin/
+!project/addons/godot_secp256k1/bin
