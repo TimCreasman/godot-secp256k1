@@ -12,27 +12,27 @@ compatibility_minimum = "4.4"
 ; ios.release = "./bin/ios/libgodot_secp256k1.ios.template_release.xcframework"
 
 
-windows.debug.x86_32 = "./bin/windows/godot_secp256k1.windows.template_debug.x86_32.dll"
-windows.release.x86_32 = "./bin/windows/godot_secp256k1.windows.template_release.x86_32.dll"
+; windows.debug.x86_32 = "./bin/windows/godot_secp256k1.windows.template_debug.x86_32.dll"
+; windows.release.x86_32 = "./bin/windows/godot_secp256k1.windows.template_release.x86_32.dll"
 
 windows.debug.x86_64 = "./bin/windows/godot_secp256k1.windows.template_debug.x86_64.dll"
 windows.release.x86_64 = "./bin/windows/godot_secp256k1.windows.template_release.x86_64.dll"
 
-windows.debug.arm64 = "./bin/windows/godot_secp256k1.windows.template_debug.arm64.dll"
-windows.release.arm64 = "./bin/windows/godot_secp256k1.windows.template_release.arm64.dll"
+; windows.debug.arm64 = "./bin/windows/godot_secp256k1.windows.template_debug.arm64.dll"
+; windows.release.arm64 = "./bin/windows/godot_secp256k1.windows.template_release.arm64.dll"
 
 
-linux.debug.x86_32 = "./bin/linux/libgodot_secp256k1.linux.template_debug.x86_32.so"
-linux.release.x86_32 = "./bin/linux/libgodot_secp256k1.linux.template_release.x86_32.so"
+; linux.debug.x86_32 = "./bin/linux/libgodot_secp256k1.linux.template_debug.x86_32.so"
+; linux.release.x86_32 = "./bin/linux/libgodot_secp256k1.linux.template_release.x86_32.so"
 
 linux.debug.x86_64 = "./bin/linux/libgodot_secp256k1.linux.template_debug.x86_64.so"
 linux.release.x86_64 = "./bin/linux/libgodot_secp256k1.linux.template_release.x86_64.so"
 
-linux.debug.arm32 = "./bin/linux/libgodot_secp256k1.linux.template_debug.arm32.so"
-linux.release.arm32 = "./bin/linux/libgodot_secp256k1.linux.template_release.arm32.so"
+; linux.debug.arm32 = "./bin/linux/libgodot_secp256k1.linux.template_debug.arm32.so"
+; linux.release.arm32 = "./bin/linux/libgodot_secp256k1.linux.template_release.arm32.so"
 
-linux.debug.arm64 = "./bin/linux/libgodot_secp256k1.linux.template_debug.arm64.so"
-linux.release.arm64 = "./bin/linux/libgodot_secp256k1.linux.template_release.arm64.so"
+; linux.debug.arm64 = "./bin/linux/libgodot_secp256k1.linux.template_debug.arm64.so"
+; linux.release.arm64 = "./bin/linux/libgodot_secp256k1.linux.template_release.arm64.so"
 
 
 ; android.debug.x86_64 = "./bin/android/libgodot_secp256k1.android.template_debug.x86_64.so"
