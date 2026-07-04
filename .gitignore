@@ -41,24 +41,6 @@ compile_commands.json
 # Ignore files generated for documentation
 /src/gen
 
-# Binaries
-*.o
-*.os
-*.so
-*.obj
-*.bc
-*.pyc
-*.dblite
-*.pdb
-*.lib
-*.config
-*.creator
-*.creator.user
-*.files
-*.includes
-*.idb
-*.exp
-
 # Other stuff
 *.log
 
