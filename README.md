@@ -39,3 +39,33 @@ var signed_bytes = _secp256k1.schnorr_sign(message.sha256_buffer())
 # Verify an existing signature:
 var err = _secp256k1.schnorrsig_verify(message.sha256_buffer(), signed_bytes.hex_decode())
 ```
+
+## Development
+
+### Compiling binaries
+
+`scons` is used to cross compile the binaries. Currently windows, linux, and wasm are supported.
+
+#### Windows
+
+From windows PowerShell
+
+```
+scons platform=windows
+```
+
+#### Linux
+
+```
+scons platform=linux
+```
+
+#### WASM
+
+Ensure [Emscripten](https://emscripten.org/) is setup in your enviroment.
+
+Run:
+```
+scons platform=web threads=no
+```
+
