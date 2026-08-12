@@ -1,4 +1,4 @@
-# v1.0.0
+# v1.1.0
 
 > A godot proxy into the high-performance high-assurance C library for digital signatures and other cryptographic primitives on the secp256k1 elliptic curve.
 
